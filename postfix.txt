@@ -1,0 +1,3 @@
+\end{tabularx}
+\end{table}
+\end{document}

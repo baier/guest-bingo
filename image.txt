@@ -1,0 +1,1 @@
+\raisebox{-\totalheight}{\includegraphics[width=3.3cm, height=3.2cm]{heart.png}} &

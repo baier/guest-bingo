@@ -1,0 +1,56 @@
+\documentclass[12pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+
+\usepackage{tabularx}
+
+
+\usepackage{calc}
+\usepackage
+[
+        a4paper,% other options: a3.02paper, a5paper, etc
+        left=0.65in,
+        right=0.65in,
+        top=0.75in,
+        bottom=1cm,
+        % use vmargin=2cm to make vertical margins equal to 2cm.
+        % us  hmargin=3.02cm to make horizontal margins equal to 3.02cm.
+        % use margin=3.02cm to make all margins  equal to 3.02cm.
+]{geometry}
+
+
+\usepackage{fontspec}
+\setmainfont{Comfortaa}
+%\setmainfont{Showtime.ttf}
+ \pagestyle{empty}
+\usepackage{array}
+
+\usepackage{anyfontsize}
+\usepackage{ctable}
+
+
+\setlength{\arrayrulewidth}{2pt}
+
+\newcolumntype{z}[1] {
+@ {{\centering \parbox [c]{\tabcolsep}{\rule {0pt}{#1 + 2\tabcolsep}}}}
+>{\centering\arraybackslash}
+m {#1}}
+
+
+\renewcommand {\tabularxcolumn}[1]{z{#1}}
+\begin{document}
+
+
+
+{\fontsize{96pt}{3cm}\selectfont \noindent \fontspec{Showtime}gjestebingo \par}
+
+\vspace{1.2cm}
+
+{\fontsize{16pt}{2cm}\selectfont \noindent Finn gjesten som passer beskrivelsen og skriv ned navnet i ruta. Førstemann til fem på rad vinner!}
+
+\vspace{1cm}
+
+\begin{table}[h]
+\centering
+\begin{tabularx}{\textwidth}{|X|X|X|X|X|c|}
+\hline
