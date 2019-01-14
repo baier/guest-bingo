@@ -1,28 +1,21 @@
 \documentclass[12pt]{report}
 \usepackage[T1]{fontenc}
 \usepackage[utf8x]{inputenc}
-
 \usepackage{tabularx}
-
-
 \usepackage{calc}
 \usepackage
 [
-        a4paper,% other options: a3.02paper, a5paper, etc
+        a4paper,
         left=0.65in,
         right=0.65in,
         top=0.75in,
-        bottom=1cm,
-        % use vmargin=2cm to make vertical margins equal to 2cm.
-        % us  hmargin=3.02cm to make horizontal margins equal to 3.02cm.
-        % use margin=3.02cm to make all margins  equal to 3.02cm.
+        bottom=1cm
 ]{geometry}
 
 
 \usepackage{fontspec}
-\setmainfont{Comfortaa}
-%\setmainfont{Showtime.ttf}
- \pagestyle{empty}
+\setmainfont{Comfortaa} % I've used Comfortaa, but any fonts listed http://www.tug.dk/FontCatalogue/ can be used out of the box
+\pagestyle{empty}
 \usepackage{array}
 
 \usepackage{anyfontsize}
@@ -36,17 +29,23 @@
 >{\centering\arraybackslash}
 m {#1}}
 
-
 \renewcommand {\tabularxcolumn}[1]{z{#1}}
 \begin{document}
 
-
-
-{\fontsize{96pt}{3cm}\selectfont \noindent \fontspec{Showtime}gjestebingo \par}
+{\fontsize{96pt}{3cm}
+\selectfont 
+\noindent 
+% I've used the Showtime font. To make it work, download Showtime.tff (or any font you prefer) to the same directory as the python file
+\fontspec{Showtime}
+gjestebingo \par}
 
 \vspace{1.2cm}
 
-{\fontsize{16pt}{2cm}\selectfont \noindent Finn gjesten som passer beskrivelsen og skriv ned navnet i ruta. Førstemann til fem på rad vinner!}
+{\fontsize{16pt}{2cm}
+\selectfont 
+\noindent 
+Finn gjesten som passer beskrivelsen og skriv ned navnet i ruta. Førstemann til fem på rad vinner!
+}
 
 \vspace{1cm}
 
