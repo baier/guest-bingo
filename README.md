@@ -34,6 +34,7 @@ LaTeX
 
 ### Example template
 ![alt text](bingo79a6d038.pdf "PDF example of wedding guest bingo template")
+[bingo79a6d038.pdf](http://baier.github.io/guest-bingo/bingo79a6d038.pdf)
 
 
 
