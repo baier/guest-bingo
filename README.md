@@ -16,7 +16,7 @@ The template consists of fun facts about, or descriptions of, guests. Change sou
 
 * Clone project
 * Add your font. Either
-  *Add Showtime.tff to the same directory as bingo.py
+  * Add Showtime.tff to the same directory as bingo.py
   * Add your custom font to the same directory as bingo.py and change "Showtime" in prefix.txt to the name of your new font. You need the tff file.
 * Run python bingo.py to check that project runs - it will generate a pdf with the name of bingo<some-hash>.pdf
 * Add the fun facts about, or descriptions of, your guests in source.txt
