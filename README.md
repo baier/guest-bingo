@@ -32,9 +32,10 @@ Python
 LaTeX
 ```
 
-### Example template
-[bingo79a6d038.pdf](http://baier.github.io/guest-bingo/examples/bingo79a6d038.pdf)
-[bingob562d1c1.pdf](http://baier.github.io/guest-bingo/examples/bingob562d1c1.pdf)
+### Example result templates
+* [bingo79a6d038.pdf](https://baier.github.io/guest-bingo/examples/bingo79a6d038.pdf)
+* [bingob562d1c1.pdf](https://baier.github.io/guest-bingo/examples/bingob562d1c1.pdf)
+
 
 
 ## Authors
@@ -44,5 +45,5 @@ LaTeX
 
 ## Acknowledgments
 
-* Thanks to Erik for suggestions to code improvements and for inspiring me to automate whenever possible
+* Thanks to Erik for suggestions to code improvements and for inspiring me to automate whenever possible :)
 
