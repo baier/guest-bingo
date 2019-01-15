@@ -16,8 +16,8 @@ The template consists of fun facts about, or descriptions of, guests. Change sou
 
 * Clone project
 * Add your font. Either
-** Add Showtime.tff to the same directory as bingo.py
-** Add your custom font to the same directory as bingo.py and change "Showtime" in prefix.txt to the name of your new font. You need the tff file.
+  *Add Showtime.tff to the same directory as bingo.py
+  * Add your custom font to the same directory as bingo.py and change "Showtime" in prefix.txt to the name of your new font. You need the tff file.
 * Run python bingo.py to check that project runs - it will generate a pdf with the name of bingo<some-hash>.pdf
 * Add the fun facts about, or descriptions of, your guests in source.txt
 * Run python bingo.py again - it will generate a new pdf for each time your run it
@@ -31,6 +31,10 @@ What things you need to install the software and how to install them
 Python
 LaTeX
 ```
+
+### Example template
+[bingo79a6d038.pdf](http://baier.github.io/guest-bingo/examples/bingo79a6d038.pdf)
+[bingob562d1c1.pdf](http://baier.github.io/guest-bingo/examples/bingob562d1c1.pdf)
 
 
 ## Authors
