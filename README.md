@@ -33,7 +33,7 @@ LaTeX
 ```
 
 ### Example template
-![alt text](bingob562d1c1.pdf "PDF example of wedding guest bingo template")
+![alt text](bingo79a6d038.pdf "PDF example of wedding guest bingo template")
 
 
 
