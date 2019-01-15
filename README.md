@@ -32,6 +32,10 @@ Python
 LaTeX
 ```
 
+### Example template
+![alt text](bingob562d1c1.pdf "PDF example of wedding guest bingo template")
+
+
 
 ## Authors
 
